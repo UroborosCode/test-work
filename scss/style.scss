@@ -343,11 +343,12 @@
     &__right-news-box-link > i{
         position: absolute;
         left: 0;
+        top: 0;
         bottom: 0;
         color: #FFF;
         background: #48974c;
         border-radius: 100%;
-        font-size: 9px;
+        font-size: 10px;
         padding: 2px 4px 2px 6px;
     }
     &__right-news-box-link:hover > i{
