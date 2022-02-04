@@ -1,0 +1,176 @@
+@media screen and (max-width: 870px){
+    .first-box{
+        &__slider-nav-head{
+            margin-right: 0 !important;
+        }
+    }
+    .content{
+        &__left-news-article{
+            margin: 0 auto !important;
+
+        }
+        &__right-article{
+            margin: 0 auto !important;
+        }
+        &__wrapp{
+            display: block !important;
+        }
+        &__left{
+            margin: 0 auto;
+        }
+        &__left > div{
+            position: relative;
+        }
+        &__right{
+            margin: 0 auto;
+            background: #FFF;
+        }
+        &__pagination-wrapp{
+            left: 0;
+            right: 0;
+        }
+        &__pagination-left-btn{
+            margin-bottom: 25px;
+        }
+    }
+    .footer{
+        &__box{
+            display: block !important;
+            padding-bottom: 20px !important;
+        }
+        &__logo{
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        &__nav{
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        &__social{
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width: 766px){
+    .header{
+        &__box-list{
+            display: grid !important;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width: 630px){
+    .first-box{
+        &__slider-nav-item-wrapp{
+            max-width: 400px !important;
+            padding: 20px !important;
+            &:hover{
+
+                max-width: 400px !important;
+            }
+        }
+    }
+    .content{
+        &__right{
+            display: block !important;
+            background: #fff !important;
+        }
+        &__right-article{
+            max-width: 275px;
+            width: 100%;
+            margin: 5px auto;
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    .container{
+        padding: 0 0 !important;
+    }
+    .header{
+        &__box-list{
+            display: block !important;
+            position: relative;
+            height: 20px;
+        }
+        &__box-list-item{
+            display: none;
+        }
+        &__box-list-item-media{
+            position: absolute;
+            right: 0;
+            left: 0;
+            top: 0;
+            display: block !important;
+        }
+        &__box-list-item-media > button{
+            border: none;
+            background: inherit;
+            text-transform: uppercase;
+            font-size: 24px;
+            line-height: 26px;
+         
+        }
+    }
+    .first-box{
+        &__slider-nav-head{
+            font-size: 36px !important;
+            line-height: 36px !important;
+        }
+        &__slider-nav-text{
+            font-size: 16px !important;
+            line-height: 24px !important;
+        }
+        &__slider-nav-item-wrapp{
+            padding: 20px 20px !important;
+        }
+    }
+    .content{
+        &__left{
+            margin: 0 auto !important;
+        }
+        &__left-news-box-bottom{
+            display: block !important;
+        }
+        &__right{
+            display: block !important;
+        }
+        &__left-news-box-link{
+            padding: 10px 40px !important;
+        }
+        &__pagination-link{
+            padding: 10px 13px !important;
+        }
+        &__pagination-wrapp{
+            left: 0px !important;
+            margin-bottom: 25px;
+            margin-top: 25px;
+        }
+        &__left-news-box-social-btn{
+            margin-top: 25px !important;
+            margin-left: 2px !important;
+            margin-right: 2px !important;
+        }
+        &__pagination-left-btn{
+            padding: 20px 56px !important;
+            margin: 0 auto !important;
+            display: block !important;
+        }
+    }
+}
+@media screen and (max-width: 375px){
+    .content{
+        &__pagination-list-item{
+            margin-right: 2px !important;
+            margin-left: 2px !important;
+        }
+    }
+    .block4{
+        &__inner{
+            display: block !important;
+            background: inherit !important;
+        }
+    }
+}
